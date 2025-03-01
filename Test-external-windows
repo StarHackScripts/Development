@@ -1,0 +1,6 @@
+if not _G.Window then return end  -- Asegurar que Rayfield ya está cargado
+
+local TeleportTab = _G.Window:CreateTab("Teleports", nil)
+TeleportTab:CreateSection("Teleport to Cases")
+
+-- Código del teleport aquí...
